@@ -4,7 +4,6 @@ var cors = require('cors');
 var mongoose = require('mongoose');
 var shortUrl = require('./models/shortUrl');
 
-
 var app = express();
 app.use(bodyparser.json());
 app.use(cors());
